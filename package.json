@@ -1,0 +1,33 @@
+{
+  "name": "Web3Engine",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-project-name.git"
+  },
+  "author": "Thomas Wright",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
